@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Regenerable field-map cache (rebuilt automatically, hash-keyed)
+data/cache/
+
+# Node / frontend (frontend/.gitignore also covers this, kept here too
+# in case commands run from the repo root)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local run artifacts
+*.log
